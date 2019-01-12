@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER Bibin Wilson <bibinwilsonn@gmail.com>
+FROM centos7:14.04
+MAINTAINER phanindra610 <phanindra.rao6@gmail.com>
 
 # Make sure the package repository is up to date.
 RUN apt-get update
